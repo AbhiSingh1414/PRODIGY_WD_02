@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background: #edeaff;
+    font-family: "Roboto Mono", monospace;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    border: 5px double black;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0 ,0 ,0.8),rgba(0 ,0 ,0 ,0.8)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    color: #edeaff;
+    padding: 40px 0;
+    margin: 200px auto 0;
+}   
+
+.stopwatch h1{
+    /* font-family: "Roboto Mono", monospace; */
+    font-size: 65px;
+    margin-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.buttons img{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    height: 80px;
+    width: 80px;
+}
